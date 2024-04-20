@@ -163,6 +163,10 @@ h3, .describe{
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
+.button:focus {
+  outline: none;
+}
+
 @media (max-width: 750px) {
 
   .container {
